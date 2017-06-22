@@ -1,6 +1,6 @@
 {
   "name": "flipside-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JS Abstraction layer for Burning Flipside APIs",
   "main": "./index.js",
   "scripts": {
@@ -18,7 +18,8 @@
     "url": "https://github.com/BurningFlipside/FlipsideJS.git"
   },
   "dependencies": {
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "crypto-js": "^3.1.9-1"
   },
   "devDependencies": {
     "nodeunit": "^0.11.0"
