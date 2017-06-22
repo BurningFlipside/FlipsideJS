@@ -1,0 +1,26 @@
+{
+  "name": "FlipsideAPI",
+  "version": "0.0.1",
+  "description": "JS Abstraction layer for Burning Flipside APIs",
+  "main": "./index.js",
+  "scripts": {
+    "test": "nodeunit test",
+    "coverage": "jscoverage lib && set FLIPSIDE_COV=1 && nodeunit --reporter=lcov test",
+    "coveralls": "jscoverage lib && FLIPSIDE_COV=1 nodeunit --reporter=lcov test | coveralls"
+  },
+  "engines": { 
+    "node" : ">=4.3.2"
+  },
+  "author": "Patrick Boyd",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BurningFlipside/FlipsideJS.git"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "nodeunit": "0.9.0"
+  }
+}
